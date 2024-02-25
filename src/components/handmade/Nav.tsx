@@ -29,7 +29,7 @@ const Nav: FC = ({}) => {
             }
         }
         window.addEventListener('scroll', handleWindowResize);
-    }, []);
+    }, [screenOnTop]);
 
     const navStyles = screenOnTop ? styles.nav : `${styles.nav} ${styles.nav__scrolled}`;
 

@@ -61,11 +61,11 @@ export default function About () {
                         </p>
                         <h3>Examples</h3>
                         <p>
-                            You can see my sample works in the 'My Projects' section.
+                            You can see my sample works in the My Projects section.
                         </p>
                         <h3>Cooperation</h3>
                         <p>
-                            If you are interested in another form of cooperation, please visit the 'Cooperation' tab.
+                            If you are interested in another form of cooperation, please visit the Cooperation tab.
                         </p>
                     </div>
                 </section>
@@ -73,34 +73,3 @@ export default function About () {
         </div>
     )
 }
-
-//
-// <div className={styles.circle}>
-//     <section>One</section>
-//     <section>Two</section>
-//     <section>Tree</section>
-//     <section>Four</section>
-//     <section>Five</section>
-//     <section>Six</section>
-// </div>
-// <h1>Hi I'm Simon!</h1>
-// <section>
-//     <h1>About me</h1>
-//     <p>I'm 24 years old, and I am graduate University of Rzeszow. The IT industry is the most interesting
-//         for me because in my opinion a programmer is like an artist.
-//     </p>
-//     <p>I'm come from south Poland. To be precise, from the village of Kielczawa located in the Bieszczady
-//         Mountains in Subcarpathia.
-//     </p>
-//     <p>
-//         I currently live in Rzeszow.
-//     </p>
-// </section>
-// <section>
-//     <h1>Skills</h1>
-//     <p>I enjoy creating websites and writing applications. Every day after work I learn new technologies
-//         and I believe that the most valuable knowledge is for free.
-//         All you need is the time and willingness to learn.
-//     </p>
-//     <p>More about my skills in "My projects" and "Technologies" section</p>
-// </section>
