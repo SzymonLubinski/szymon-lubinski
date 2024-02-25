@@ -1,5 +1,8 @@
 .itemPreview {
   background: #5e7e9e;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
 }
 .itemPreview__close {
   position: absolute;
