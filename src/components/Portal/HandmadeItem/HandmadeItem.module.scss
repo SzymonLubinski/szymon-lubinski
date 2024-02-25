@@ -1,0 +1,21 @@
+
+.itemPreview{
+  background: #5e7e9e;
+
+  &__close{
+    position: absolute;
+    z-index: 40;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+
+    & svg{
+      width: 50px;
+      height: 50px;
+    }
+  }
+
+  &__swiper{
+    height: 100vh;
+  }
+}

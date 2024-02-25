@@ -1,0 +1,67 @@
+.main{
+    padding: 50px 10px;
+    text-align: center;
+}
+.main section{
+    margin-top: 30px;
+}
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container .box{
+    background: white;
+    position: relative;
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.container .box .title{
+    font-size: 32px;
+    margin-top: 5px;
+    width: 100%;
+    opacity: 0.5;
+    transform-style: preserve-3d;
+    transform: translate3d(0,0, 50px);
+    text-align: center;
+    color: red;
+}
+.box:hover .title{
+    opacity: 1;
+}
+.box .tech{
+    position: absolute;
+    z-index: 0;
+    top: 60%;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    transition: 0.5s;
+    transform-style: preserve-3d;
+    transform: translate3d(-50%, -50%, 0) rotate(-15deg);
+}
+.box:hover .tech{
+    transform: translate3d(-50%, -50%, 90px) rotate(-2deg);
+}
+.box .tech svg{
+    height: 100%;
+}
+
+@media (max-width: 1090px) {
+    .main{
+        padding: 0;
+    }
+    .main section{
+        margin-top: 0;
+    }
+    .container .box{
+        width: 130px;
+    }
+    .container .box .title{
+        font-size: 22px;
+    }
+}

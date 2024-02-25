@@ -1,0 +1,53 @@
+.wrapper{
+    width: 100%;
+}
+.wrapper button{
+    width: 100%;
+    height: 60px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #262626;
+    border: 2px solid #262626;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+}
+.wrapper button:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #194775;
+    transition: all .35s;
+}
+.wrapper button:hover, .wrapper button:hover span div svg{
+    fill: #fff;
+}
+.wrapper button:hover:after{
+    width: 100%;
+}
+.wrapper button span{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+}
+.wrapper button span div{
+    margin-left: 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.wrapper button span div svg{
+    fill: #262626;
+    width: 40px;
+    height: 40px;
+}

@@ -1,0 +1,41 @@
+.container{
+    width: 100%;
+    background: #262626;
+    color: #ffffff;
+    padding: 20px;
+    text-align: left;
+    border-radius: 20px;
+}
+.container h1{
+    margin: 0;
+    padding: 20px 0;
+    border-bottom: 1px solid #ffffff;
+}
+.container img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin: 20px 0;
+}
+.container p{
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+.close{
+    position: relative;
+    background: #cfdcf1;
+    text-align: right;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.close svg{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+}
+@media screen and (max-width: 1066px) {
+    .container{
+        width: 90vw;
+        margin: 0 auto;
+    }
+}

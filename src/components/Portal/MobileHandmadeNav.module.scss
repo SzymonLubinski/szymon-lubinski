@@ -1,0 +1,30 @@
+.mobileNav {
+  width: 100%;
+  margin: 0 auto;
+  background: #5e7e9e;
+  padding: 50px;
+
+  &__tabs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    & a{
+      margin-top: 30px;
+      font-size: 2em;
+
+    }
+  }
+
+  &__close {
+    margin-top: 50px;
+    text-align: center;
+    cursor: pointer;
+
+    & svg {
+      width: 60px;
+      height: auto;
+    }
+  }
+}

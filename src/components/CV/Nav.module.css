@@ -1,0 +1,51 @@
+.navBar{
+    background: #262626;
+    width: 300px;
+    height: 100%;
+    z-index: 1;
+    top:0;
+    left: 0;
+    position: fixed;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    box-shadow: 3px 2px 35px -6px rgba(38, 38, 38, 1);
+}
+.nameSection p{
+    color: white;
+    font-size: 2em;
+}
+.imgSection{
+    display: flex;
+    justify-content: center;
+}
+.imgSection img{
+    border-radius: 50%;
+    width: 80%;
+    height: auto;
+}
+.linksSection{
+    display: flex;
+    justify-content: space-evenly;
+}
+.linksSection a{
+    width: 20%;
+}
+.linksSection a svg{
+    fill: white;
+    width: 100%;
+}
+.tabsSection{
+
+}
+
+@media (max-width: 1090px) {
+    .navBar{
+        position: relative;
+    }
+    .nameSection p{
+
+    }
+}

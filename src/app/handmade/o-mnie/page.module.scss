@@ -1,0 +1,18 @@
+.container{
+  margin: 50px;
+  display: flex;
+  align-items: flex-start;
+
+  & img{
+    width: 50%;
+    height: auto;
+  }
+  &__text{
+    padding: 40px;
+
+    & h1{
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  }
+}

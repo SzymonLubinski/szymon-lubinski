@@ -1,0 +1,18 @@
+.container {
+  margin: 50px;
+  display: flex;
+  align-items: flex-start;
+}
+.container img {
+  width: 50%;
+  height: auto;
+}
+.container__text {
+  padding: 40px;
+}
+.container__text h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/*# sourceMappingURL=page.module.css.map */

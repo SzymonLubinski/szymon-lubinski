@@ -1,0 +1,80 @@
+.nav{
+  position: fixed;
+  z-index: 2;
+  padding: 0 50px;
+  width: 100%;
+  color: black;
+  font-size: 0.8em;
+
+  &__scrolled{
+    background: rgba(0,0,0,0.8);
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    color: white;
+  }
+
+  &__logo{
+    height: 80%;
+    display: flex;
+    align-items: center;
+
+    & img{
+      height: 100%;
+      width: auto;
+    }
+  }
+
+  &__tabs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__mobileTab{
+    display: none;
+  }
+}
+.center{
+  width: 100%;
+  height: 100px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tab{
+  margin-left: 15px;
+  padding: 10px;
+  border-radius: 40px;
+
+  &:hover{
+    background: #5e7e9e;
+    transition: 0.5s ease;
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  .nav{
+    position: relative;
+
+    &__tabs{
+      display: none;
+    }
+    &__mobileTab{
+      display: flex;
+      padding: 5px;
+      cursor: pointer;
+    }
+    &__bar{
+      padding: 5px;
+
+      & svg{
+        height: 60px;
+        width: auto;
+      }
+    }
+  }
+}

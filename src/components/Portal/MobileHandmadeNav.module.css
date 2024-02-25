@@ -1,0 +1,27 @@
+.mobileNav {
+  width: 100%;
+  margin: 0 auto;
+  background: #5e7e9e;
+  padding: 50px;
+}
+.mobileNav__tabs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mobileNav__tabs a {
+  margin-top: 30px;
+  font-size: 2em;
+}
+.mobileNav__close {
+  margin-top: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+.mobileNav__close svg {
+  width: 60px;
+  height: auto;
+}
+
+/*# sourceMappingURL=MobileHandmadeNav.module.css.map */

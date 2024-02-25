@@ -100,8 +100,22 @@ a {
   text-decoration: none;
 }
 
+div#portal{
+  position: fixed;
+  z-index: 30;
+  top: 0;
+  left: 50%;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
+}
+
+@media screen and (max-width: 1060px) {
+  /*div#portal{*/
+  /*  width: 100%;*/
+  /*  left: 0;*/
+  /*}*/
 }
