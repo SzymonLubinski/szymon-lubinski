@@ -8,11 +8,23 @@
   height: auto;
 }
 .container__text {
-  padding: 40px;
+  padding: 10px;
 }
 .container__text h1 {
   text-align: center;
   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1060px) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  .container img {
+    width: 80%;
+  }
 }
 
 /*# sourceMappingURL=page.module.css.map */

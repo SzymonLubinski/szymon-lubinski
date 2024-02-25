@@ -8,11 +8,23 @@
     height: auto;
   }
   &__text{
-    padding: 40px;
+    padding: 10px;
 
     & h1{
       text-align: center;
       margin-bottom: 20px;
+    }
+  }
+}
+@media screen and (max-width: 1060px) {
+  .container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+
+    & img{
+      width: 80%;
     }
   }
 }
