@@ -1,18 +1,15 @@
 import {FC} from 'react';
 import Image from "next/image";
-import aboutImg from '../../../../public/img/handmade/about.png';
+import aboutImg from '../../../../public/img/handmade/1.jpg';
 import styles from './page.module.scss';
 
 
-interface PageProps {
-}
-
-const Page: FC<PageProps> = ({}) => {
+const Page: FC = ({}) => {
     return (
         <div className={styles.container}>
             <Image src={aboutImg} alt={'about'}/>
             <div className={styles.container__text}>
-                <h1>Tulipanowo</h1>
+                <h1>Handmade</h1>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non porta nisl. Nulla a tempor eros.
                     Proin rutrum luctus enim a malesuada. Fusce et nunc orci. Mauris libero dolor, consequat non augue

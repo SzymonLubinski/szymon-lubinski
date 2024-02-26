@@ -10,9 +10,9 @@ import './swiper-styles.css';
 
 
 import Image from "next/image";
-import background from "../../../public/img/handmade/bg.png";
+import background from "../../../public/img/handmade/bg.jpg";
 import styles from './Welcome.module.scss'
-import welcomePicture from  "../../../public/img/handmade/about.png";
+import welcomePicture from  "../../../public/img/handmade/1.jpg";
 import {handmadeData, handmadeOpinions} from "@/helpers/utils/static-data";
 import NextJSButton from "@/components/UI/NextJsUI/NextJSButton";
 
@@ -46,7 +46,7 @@ const Welcome: FC<WelcomeProps> = ({}) => {
                     </div>
                     <div className={styles.productsSection__backdrop}>
                         <NextJSButton content={'Zobacz więcej'}
-                                      link={'/handmade/produkty'}
+                                      link={'/handmade/products'}
                         />
                     </div>
                 </section>

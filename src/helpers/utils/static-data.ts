@@ -7,10 +7,10 @@ import mShop from '../../../public/img/MacrameShop.png';
 import cDocs from '../../../public/img/DocsCreator.png';
 import sSant from '../../../public/img/SimonSanta.png';
 
-import item1 from '../../../public/img/handmade/2.png'
-import item2 from '../../../public/img/handmade/3.png'
-import item3 from '../../../public/img/handmade/4.png'
-import item4 from '../../../public/img/handmade/5.png'
+import item1 from '../../../public/img/handmade/2.jpg'
+import item2 from '../../../public/img/handmade/2.jpg'
+import item3 from '../../../public/img/handmade/3.jpg'
+import item4 from '../../../public/img/handmade/4.jpeg'
 import dayjs from "dayjs";
 
 export const staticData: ProjectType[] = [
@@ -118,12 +118,12 @@ export const handmadeData: HandmadeItemType[] = [
 ]
 
 export const handmadeTabs: HandMadeTabType[] = [
-    {link: '/handmade', plTitle: 'Tulipanowo'},
-    {link: '/handmade/produkty', plTitle: 'Produkty'},
-    {link: '/handmade/o-mnie', plTitle: 'O mnie'},
-    {link: '/handmade/blog', plTitle: 'Blog'},
-    {link: '/handmade/kontakt', plTitle: 'Kontakt'},
-    {link: '/handmade/zamowienie', plTitle: 'Zamówienie'},
+    {link: '/handmade', title: 'Home'},
+    {link: '/handmade/products', title: 'Products'},
+    {link: '/handmade/about', title: 'About me'},
+    {link: '/handmade/blog', title: 'Blog'},
+    {link: '/handmade/contact', title: 'Contact'},
+    {link: '/handmade/order', title: 'Order'},
 ]
 
 export const handmadeOpinions: HandMadeOpinionType[] = [

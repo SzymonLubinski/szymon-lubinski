@@ -56,7 +56,7 @@ export interface HandmadeItemType{
 
 export interface HandMadeTabType{
     link: string;
-    plTitle: string;
+    title: string;
 }
 export interface HandMadeTabTypeWithNode extends HandMadeTabType{
     node: ReactNode;

@@ -1,6 +1,7 @@
 .itemPreview {
   background: #5e7e9e;
-  height: 100vh;
+  position: fixed;
+  height: 100%;
   width: 100%;
   overflow: hidden;
 }
@@ -16,7 +17,7 @@
   height: 50px;
 }
 .itemPreview__swiper {
-  height: 100vh;
+  height: 100%;
 }
 
 /*# sourceMappingURL=HandmadeItem.module.css.map */

@@ -22,7 +22,7 @@ const MobileHandmadeNav: FC<MobileHandmadeNavProps> = ({}) => {
                         <Link key={i} href={tab.link}
                               onClick={() => dispatch(turnOffPortal())}
                         >
-                            {tab.plTitle}
+                            {tab.title}
                         </Link>
                     ))}
                 </div>

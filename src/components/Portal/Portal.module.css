@@ -21,7 +21,6 @@
 
 .modalFullScreen {
     position: absolute;
-    top: 0;
     transform: translateX(-50vw);
     width: 100vw;
     height: 100vh;
@@ -33,7 +32,8 @@
 
     }
     .modalFullScreen{
-
+        position: fixed;
+        height: 100%;
     }
 }
 

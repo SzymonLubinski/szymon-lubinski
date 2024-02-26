@@ -1,7 +1,7 @@
 'use client'
 
-import {FC, useEffect} from 'react';
-import logo from '../../../public/img/handmade/LogoHandmade.png';
+import {FC} from 'react';
+import logo from '../../../public/img/handmade/handmade-logo.png';
 import Image from "next/image";
 import styles from './Footer.module.scss';
 
@@ -29,17 +29,17 @@ const Footer: FC<FooterProps> = ({}) => {
                     </div>
                 </div>
                 <div className={styles.columns}>
-                    <h1>Pomoc</h1>
-                    <p>Kontakt</p>
-                    <p>Zgłoś błąd na stronie</p>
-                    <p>Polityka prywatności</p>
-                    <p>Regulamin</p>
+                    <h1>Help</h1>
+                    <p>contact</p>
+                    <p>Report an error on the site</p>
+                    <p>privacy policy</p>
+                    <p>Terms and conditions</p>
                 </div>
                 <div className={styles.columns}>
-                    <h1>Bezpieczne zakupy</h1>
-                    <p>Prawo do zwrotu</p>
-                    <p>Sposoby płatności</p>
-                    <p>Formy dostawy</p>
+                    <h1>Safe shopping</h1>
+                    <p>Right to refund</p>
+                    <p>Payment methods</p>
+                    <p>Delivery methods</p>
                 </div>
             </section>
             <section className={styles.footer__copywrites}>

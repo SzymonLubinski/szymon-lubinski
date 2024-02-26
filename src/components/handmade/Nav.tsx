@@ -1,10 +1,10 @@
 'use client'
 
-import {FC, useEffect, useRef, useState} from 'react';
+import {FC, useEffect, useState} from 'react';
 import {handmadeTabs} from "@/helpers/utils/static-data";
 import styles from './Nav.module.scss';
 import Image from "next/image";
-import logo from '../../../public/img/handmade/LogoHandmade.png'
+import logo from '../../../public/img/handmade/handmade-logo.png'
 import Link from "next/link";
 import MobileHandmadeNav from "@/components/Portal/MobileHandmadeNav";
 import {useDispatch, useSelector} from "react-redux";
@@ -38,12 +38,12 @@ const Nav: FC = ({}) => {
             <div className={styles.center}>
                 <Link href={firstTab.link} className={styles.nav__logo}>
                     <Image src={logo} priority={true} alt={'tulipanowo-logo'}/>
-                    <h1>{firstTab.plTitle}</h1>
+                    <h1>{firstTab.title}</h1>
                 </Link>
                 <div className={styles.nav__tabs}>
                     {fromSecondToLast.map((tab, i) => (
                         <Link href={tab.link} key={i} className={styles.tab}>
-                            <h1>{tab.plTitle}</h1>
+                            <h1>{tab.title}</h1>
                         </Link>
                     ))}
                 </div>

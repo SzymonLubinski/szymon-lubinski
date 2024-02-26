@@ -5,6 +5,7 @@
   width: 100%;
   color: black;
   font-size: 0.8em;
+  background: rgba(255, 255, 255, 0.6);
 }
 .nav__scrolled {
   background: rgba(0, 0, 0, 0.8);
