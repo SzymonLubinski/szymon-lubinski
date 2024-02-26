@@ -6,6 +6,7 @@ import pList from '../../../public/img/ProductList.png';
 import mShop from '../../../public/img/MacrameShop.png';
 import cDocs from '../../../public/img/DocsCreator.png';
 import sSant from '../../../public/img/SimonSanta.png';
+import HandMade from '../../../public/img/HandmadeShop.png';
 
 import item1 from '../../../public/img/handmade/2.jpg'
 import item2 from '../../../public/img/handmade/2.jpg'
@@ -16,6 +17,14 @@ import dayjs from "dayjs";
 export const staticData: ProjectType[] = [
     {
         id: '1',
+        name: "Handmade",
+        line1: "A simple website for a small entrepreneur.",
+        line2: "The website contains several tabs, several pages. Presents products and customer opinions.",
+        img: HandMade,
+        link: 'https://szymon-lubinski.vercel.app/handmade/',
+    },
+    {
+        id: '2',
         name: "Simon Santa Claus",
         line1: "The Simon Santa Claus website is a website for conducting the St. Nicholas Day draw. But not only.",
         line2: "On Simon Santa's website you can register and use it as a messenger. Invite friends, create groups and chat with your friends on the fly, just like in popular messengers.",
@@ -23,7 +32,7 @@ export const staticData: ProjectType[] = [
         link: 'https://simon-santa-claus.vercel.app/',
     },
     {
-        id: '2',
+        id: '3',
         name: "Logan's Taco",
         line1: "Restaurant website. Order food, receive a confirmation email and manage the restaurant from the dashboard.",
         line2: 'Frontend and backend restaurant website written in TypeScript with Next.js.The application uses the function of sending e-mails, databases, registration and logging in Next-Auth, data analysis and many others.',
@@ -31,7 +40,7 @@ export const staticData: ProjectType[] = [
         link: 'https://logans-taco.vercel.app/',
     },
     {
-        id: '3',
+        id: '4',
         name: "Josep's Farm",
         line1: "A fully functional game that's tons of fun! ",
         line2: 'Joseph\'s Farm is written in Python using the PyGame library and several others. The game has many features, including saving and loading game state.',
@@ -39,7 +48,7 @@ export const staticData: ProjectType[] = [
         link: 'https://github.com/SzymonLubinski/Josephs-Farm',
     },
     {
-        id: '4',
+        id: '5',
         name: "Macrame Shop",
         line1: "Shop and blog of a person who owns a shop with handmade products.",
         line2: "An example of a purely styling website I created. There is no contact form support or backend functionality.. Written with Bootstrap",
@@ -47,7 +56,7 @@ export const staticData: ProjectType[] = [
         link: 'https://szymonlubinski.github.io/macrame_shop/',
     },
     {
-        id: '5',
+        id: '6',
         name: "Product List",
         line1: "Page for adding and removing products",
         line2: "Simple website with backend in PHP. App has options like add and delete product from list. I used MySQL to kept product items",
@@ -55,7 +64,7 @@ export const staticData: ProjectType[] = [
         link: 'https://productlistbyszymon.000webhostapp.com',
     },
     {
-        id: '6',
+        id: '7',
         name: "Document Creator",
         line1: 'creating documents and reports using python',
         line2: "An application written in Python that prepares a document based on Eurostat data and saves it in pdf format.The program is not written based on OOP principles. It was just an exercise in the skills learned in the course.",
